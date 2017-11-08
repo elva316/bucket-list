@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		235734131FB291FA00C34B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235734121FB291FA00C34B03 /* AppDelegate.swift */; };
-		235734151FB291FA00C34B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235734141FB291FA00C34B03 /* ViewController.swift */; };
+		235734151FB291FA00C34B03 /* BucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235734141FB291FA00C34B03 /* BucketViewController.swift */; };
 		235734181FB291FA00C34B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235734161FB291FA00C34B03 /* Main.storyboard */; };
 		2357341A1FB291FA00C34B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235734191FB291FA00C34B03 /* Assets.xcassets */; };
 		2357341D1FB291FA00C34B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2357341B1FB291FA00C34B03 /* LaunchScreen.storyboard */; };
+		235734251FB29CCF00C34B03 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235734241FB29CCF00C34B03 /* AddItemViewController.swift */; };
+		235734271FB29CF500C34B03 /* DelegationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235734261FB29CF500C34B03 /* DelegationControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2357340F1FB291FA00C34B03 /* bucket list one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bucket list one.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		235734121FB291FA00C34B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		235734141FB291FA00C34B03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		235734141FB291FA00C34B03 /* BucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketViewController.swift; sourceTree = "<group>"; };
 		235734171FB291FA00C34B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		235734191FB291FA00C34B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2357341C1FB291FA00C34B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2357341E1FB291FA00C34B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235734241FB29CCF00C34B03 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		235734261FB29CF500C34B03 /* DelegationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				235734121FB291FA00C34B03 /* AppDelegate.swift */,
-				235734141FB291FA00C34B03 /* ViewController.swift */,
+				235734141FB291FA00C34B03 /* BucketViewController.swift */,
+				235734241FB29CCF00C34B03 /* AddItemViewController.swift */,
+				235734261FB29CF500C34B03 /* DelegationControl.swift */,
 				235734161FB291FA00C34B03 /* Main.storyboard */,
 				235734191FB291FA00C34B03 /* Assets.xcassets */,
 				2357341B1FB291FA00C34B03 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235734151FB291FA00C34B03 /* ViewController.swift in Sources */,
+				235734151FB291FA00C34B03 /* BucketViewController.swift in Sources */,
 				235734131FB291FA00C34B03 /* AppDelegate.swift in Sources */,
+				235734251FB29CCF00C34B03 /* AddItemViewController.swift in Sources */,
+				235734271FB29CF500C34B03 /* DelegationControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
